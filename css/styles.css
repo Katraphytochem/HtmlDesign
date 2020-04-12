@@ -1,0 +1,603 @@
+/*Harsh CSS */
+
+.reset{
+	padding:0;
+}
+
+
+
+
+#animal-nutrition-banner{
+	background: url("../images/animal-nutrition-banner.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+	height:500px;
+}
+
+#food-and-beverages-banner{
+	background: url("../images/food-and-beverages-banner.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+
+#xanmax-banner{
+	background: url("../images/xanmax-banner.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+
+#tomatene-banner{
+	background: url("../images/tomatene-banner.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+#lutest-banner{
+	background: url("../images/lutest-banner.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+
+.bg-tomatene{
+	background: url("../images/tomatene-2.jpg");
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 850px;
+}
+
+
+
+.bg-microscope{
+	background: url("../images/xanmax-5.jpg");
+	background-repeat: no-repeat;
+	background-position: right center;
+	min-height:250px;
+}
+
+.text-microscope{
+font-family: 'Montserrat', sans-serif;
+font-weight:300;
+color:#666666;
+font-size:12pt;
+text-align: center;
+}
+
+.xi-text{
+font-family: 'Montserrat', sans-serif;
+font-weight:400;
+color:#333333;
+font-size:12pt;
+}
+
+
+
+.main-heading{
+font-family: 'Montserrat', sans-serif;
+font-weight:300;
+color:#333333;
+font-size:24pt;
+}
+
+.tomatene-heading{
+font-family: 'Montserrat', sans-serif;
+font-weight:400;
+color:#333333;
+font-size:16pt;
+}
+
+.link-green-underline{
+font-family: 'Montserrat', sans-serif;
+font-weight:400;
+color:#449314;
+font-size:18pt;
+text-decoration: underline;
+}
+
+.link-green-underline:hover{
+	color:#449314;
+}
+
+.xanmax-heading{
+font-family: 'Montserrat', sans-serif;
+font-weight:400;
+color:#333333;
+font-size:20pt;
+}
+
+.xanmax-list{
+font-family: 'Montserrat', sans-serif;
+font-weight:300;
+color:#333333;
+font-size:12pt;
+padding-inline-start:10px;
+text-align: justify;
+}
+
+.xanmax-list li{
+	list-style-type: disc;
+}
+
+.lutest-list{
+font-family: 'Montserrat', sans-serif;
+font-weight:500;
+color:#333333;
+background-color: #fff;
+font-size:11pt;
+padding:20px;
+text-align: left;
+padding-inline-start:50px;
+box-shadow: 1px 1px 8px #888888;
+max-width: 500px;
+}
+
+.lutest-list li{
+	list-style-type: disc;
+}
+
+
+.sub-orange{
+	color: #ef7814;
+	font-weight:400;
+}
+
+.sub-red{
+	color: #e51501;
+	font-weight:400;
+}
+
+
+.main-text{
+font-family: 'Montserrat', sans-serif;
+font-weight:300;
+color:#666666;
+font-size:15pt;
+}
+
+
+.bg-grey{
+	background-color: #F4F3EF;
+}
+
+.bg-grey-img{
+	background-color: #F4F3EF;
+	background-image: url("../images/back-slice.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.bg-white{
+	background-color: #fff;
+}
+
+.bg-sky-blue{
+	background-color:#D5ECFE;
+}
+
+
+.an-heading{
+font-family: 'Montserrat', sans-serif;
+font-weight:600;
+color:#333333;
+font-size:16pt;
+
+}
+
+
+.an-text{
+font-family: 'Montserrat', sans-serif;
+font-weight:300;
+color:#666666;
+font-size:13pt;
+}
+
+.an-text-2{
+font-family: 'Montserrat', sans-serif;
+font-weight:500;
+color:#333333;
+font-size:14pt;
+}
+
+.an-text-container{
+	padding:60px;
+}
+
+
+.fnb-wbg{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+	color:#333333;
+	font-size:14pt;
+	background-color:#fff;
+	padding:10px 30px;
+	width:304px;
+	margin-top:-15px;
+}
+
+.xanmax-wbg{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+	color:#333333;
+	font-size:14pt;
+	background-color:#fff;
+	padding:10px 30px;
+	width:270px;
+	margin-top:-15px;
+}
+
+.tomatene-wbg{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+	color:#333333;
+	font-size:11pt;
+	background-color:#fff;
+	padding:10px 30px;
+	width:210px;
+	margin-top:-15px;
+}
+
+.fnb-container img{
+	max-width:324px;
+}
+
+.fnb-container{
+	text-align:center;
+}
+
+.xanmax-container img{
+	max-width:289px;
+}
+
+.tomatene-container img{
+	max-width:230px;
+}
+
+.fnb-sub-para{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	color:#333333;
+	font-size:11pt;
+}
+
+.fnb-border-lr{
+	border-left: 2px solid #EF7917;
+	border-right: 2px solid #EF7917;
+}
+
+.tomatene-border-lr{
+	border-left: 2px solid #e61501;
+	border-right: 2px solid #e61501;
+	max-height: 142px;
+}
+
+
+.product-usps-logo img{
+	max-width: 200px;
+	max-height: 150px;
+	padding:10px;
+}
+
+
+@media only screen and (max-width: 320px){
+	.fnb-container img{
+	max-width:250px;
+}
+
+.fnb-wbg{
+	width: 230px;
+	font-size:1em;
+}
+
+.bg-tomatene {
+    background-size: 140%;
+    min-height: 950px;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+#animal-nutrition-banner{
+background-size: 100%;
+height: 200px;
+}
+
+
+#food-and-beverages-banner{
+background-size: 100%;
+height: 200px;
+}
+
+#xanmax-banner{
+background-size: 100%;
+height: 200px;
+}
+
+#tomatene-banner{
+background-size: 100%;
+height: 200px;
+}
+
+#lutest-banner{
+background-size: 100%;
+height: 200px;
+}
+
+
+.an-text-container{
+	padding:30px;
+}
+
+.an-text{
+font-size:0.8em;
+	}
+
+}
+
+.bg-tomatene {
+    background-size: 140%;
+    min-height: 880px;
+}
+
+}
+
+
+
+
+@media only screen and (max-width:767px){
+	#animal-nutrition-banner{
+background-size: 100%;
+height: 250px;
+}
+
+	#food-and-beverages-banner{
+background-size: 100%;
+height: 250px;
+}
+
+	#xanmax-banner{
+background-size: 100%;
+height: 250px;
+}
+
+	#tomatene-banner{
+background-size: 100%;
+height: 250px;
+}
+
+	#lutest-banner{
+background-size: 100%;
+height: 250px;
+}
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width:767px) and (min-width: 601px) {
+
+#animal-nutrition-banner{
+background-size: 100%;
+height: 250px;
+}
+
+
+#food-and-beverages-banner{
+background-size: 100%;
+height: 250px;
+}
+
+#xanmax-banner{
+background-size: 100%;
+height: 250px;
+}
+
+#tomatene-banner{
+background-size: 100%;
+height: 250px;
+}
+
+#lutest-banner{
+background-size: 100%;
+height: 250px;
+}
+
+
+
+.an-text-container 
+{
+	padding:30px;
+}
+
+.an-text{
+font-size:0.8em;
+	}
+
+.bg-tomatene {
+    background-size: 130%;
+    min-height: 950px;
+}
+
+}
+
+
+@media only screen and (max-width: 992px){
+
+	.fnb-border-lr{
+		border:none;
+	}
+
+	.tomatene-border-lr{
+		border:none;
+	}
+}
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+#animal-nutrition-banner{
+background-size: 100%;
+height:300px;
+}
+
+#food-and-beverages-banner{
+background-size: 100%;
+height:300px;
+}
+
+#xanmax-banner{
+background-size: 100%;
+height:300px;
+}
+
+#tomatene-banner{
+background-size: 100%;
+height:300px;
+}
+
+#lutest-banner{
+background-size: 100%;
+height:300px;
+}
+
+.fnb-container img{
+	max-width:210px;
+}
+
+.fnb-wbg{
+	width: 190px;
+	font-size:0.9em;
+}
+
+.an-text-container{
+	padding:40px;
+}
+
+.an-text{
+font-size:0.8em;
+	}
+
+
+	.xanmax-container img{
+		max-width: 220px;
+	}
+
+	.xanmax-wbg{
+		width: 190px;
+		font-size: 0.9em;
+	}
+
+
+	.bg-tomatene {
+    background-size: 130%;
+    min-height: 850px;
+}
+
+
+}
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+#animal-nutrition-banner{
+background-size: 100%;
+height:350px;
+}
+
+#food-and-beverages-banner{
+background-size: 100%;
+height:350px;
+}
+
+
+#xanmax-banner{
+background-size: 100%;
+height:350px;
+}
+
+#tomatene-banner{
+background-size: 100%;
+height:350px;
+}
+
+#lutest-banner{
+background-size: 100%;
+height:350px;
+}
+
+.fnb-container img{
+	max-width:280px;
+}
+
+.fnb-wbg{
+	width: 260px;
+}
+
+.bg-tomatene{
+	background-size: cover;
+	min-height: 950px;
+}
+
+.tomatene-container img {
+    max-width: 210px;
+}
+
+.tomatene-wbg{
+	width:200px;
+}
+
+}
+
+
+@media only screen and (min-width: 1600px){
+
+#animal-nutrition-banner{
+background-size: contain;
+background-position: center;
+}
+
+#food-and-beverages-banner{
+background-size: contain;
+background-position: center;
+}
+
+#xanmax-banner{
+background-size: contain;
+background-position: center;
+}
+
+#tomatene-banner{
+background-size: contain;
+background-position: center;
+}
+
+#lutest-banner{
+background-size: contain;
+background-position: center;
+}
+
+
+.bg-tomatene{
+	background: url("../images/tomatene-2.jpg");
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 850px;
+}
+
+
+}

@@ -1,0 +1,343 @@
+@media(max-width:1599px){
+	.flower-img{width:400px}
+	.slider-caption h1 {
+		font-size: 500%;
+	}
+	.slider-caption p {
+		font-size: 140.5%;}
+		.slider-caption{max-width: 540px;padding:0 15px 0 50px;}
+		.container-fluid {
+			padding: 0 50px;
+		}
+		.inner-banner{ padding-bottom: 170px }
+	}
+
+	@media(max-width:1499px){
+		.slider-caption h1 {
+			font-size: 360%;
+		}
+		.slider-caption p {
+			font-size: 120.5%;}
+			.slider-caption {
+				max-width: 474px;
+			}
+			.inner-banner{ padding-bottom: 170px }
+		}
+
+
+		@media(max-width:1399px){
+			.flower-img{width:300px}
+			.inner-banner{ padding-bottom: 150px }
+
+		}
+
+		@media(max-width:1299px){
+			.slider-caption h1 {
+				font-size: 300%;
+			}
+			.slider-caption p {
+				font-size: 100.5%;}
+				.slider-caption {
+					max-width: 452px;
+				}
+				.slider-caption .theam-btn{font-size: 120.5%}
+				.inner-banner{ padding-bottom: 120px }
+			}
+
+			@media(max-width:1199px){
+				.slider-caption h1 {
+					font-size: 250%;
+				}
+				.slider-caption p { margin-bottom: 20px;
+					font-size: 80%;}
+					.slider-caption {
+						max-width: 350px;padding:0 15px 0 40px;
+					}
+					.container-fluid {
+						padding: 0 40px;
+					}
+					.flower-img {
+						width: 250px;
+					}
+					.inner-banner{ padding-bottom: 110px }
+					.inner-caption h1{font-size: 90px}
+					.inner-caption p{font-size: 24px}
+					.box-content {
+    padding: 60px 30px;}
+    .supplement-box {
+    padding: 60px 0;
+}
+.supply-icon {
+    width: 80px;}
+    .leaf-bg{height: 450px}
+    .nutrac-box h4{font-size: 25px}
+				}
+				@media(max-width:991px){
+					.slider-caption h1 {
+						font-size: 150%;
+					}
+					.menu-section{display: none}
+					header{padding: 15px 0}
+					body{padding-top: 104px;}
+					.nav-icon a{color:rgb(51, 51, 51);}
+					.slider-caption {
+						max-width: 300px; 
+					}
+					.slider-caption .theam-btn {
+						font-size: 100%;
+					}
+.vision_slider {
+
+    padding-right: 0;
+
+}
+.drive-quotes{display: none;}
+.industry-innerbox h4{font-size: 18px;}
+.inner-banner{ padding-bottom: 90px }
+					.inner-caption h1{font-size: 70px; margin-top: 100px}
+					.inner-caption p{font-size: 20px}
+					.inner-page {
+    padding-top: 104px;
+}
+section {
+    padding: 30px 0;
+}
+.box-content {
+    padding: 50px 30px;}
+    .supplement-box {
+    padding: 50px 0;
+}
+.supply-icon {
+    width: 70px;}
+    .nutrac-img img{min-height: 178px}
+				}
+
+
+				@media(max-width:900px){
+
+					.container-fluid {
+						padding: 0 30px;
+					}
+					.slider-caption { padding:0 15px 0 30px;max-width: 300px;
+
+					}
+					.flower-img {
+
+    width: 200px;
+
+}
+				}
+
+
+				@media(max-width:800px){
+
+					.container-fluid {
+						padding: 0 15px;
+					}
+					.slider-caption {
+						max-width: 280px;
+						padding:0 15px}
+					}
+
+
+
+@media(max-width: 767px){
+	.theam-btn{padding: 1.4em 3em 1.4em 3em}
+	.vision-caption{padding: 40px; text-align: center;}
+	.industry-box{margin-bottom: 70px}
+	.industry-service{margin-bottom: 30px}
+	.industry-icon{margin-right: 20px}
+	.industry-innerbox h4{min-height: inherit;}
+	.front_slider .owl-dots{right: 15px}
+	.slider-caption h1 {
+    font-size: 250%; margin-bottom: 10px
+} 
+.nutrac-box{width: 100%; max-width: 250px; margin:0 auto 30px;}
+.tab-heading{display: none;}
+.slider-caption p{margin-bottom: 10px}
+.slider-caption .theam-btn {
+
+    font-size: 80%;
+padding: 15px 20px;
+}
+
+.slider-caption {
+
+    max-width: 230px;}
+    .section-heading h2 {
+
+    font-size: 26px; margin-bottom: 16px}
+    .video{margin-bottom: 20px}
+    .page-content p {
+
+    font-size: 16px;
+
+}
+.section-heading{margin-bottom: 30px}
+.footer-box h4{padding-bottom: 15px;
+
+margin-bottom: 15px;}
+.footer-box{margin-bottom: 30px}
+.brand-img{margin-bottom: 20px}
+.inner-banner{ padding-bottom:70px }
+					.inner-caption h1{font-size: 50px; margin-top: 50px}
+					.inner-caption p{font-size: 16px}
+					.box-content {
+    padding: 40px 30px;}
+    .supplement-box {
+    padding: 40px 0;
+}
+.nutrac-img img {
+    min-height: 299px;
+}
+.leaf-bg {
+    height: 400px;
+}
+.nutrac-img img{margin-bottom: 30px;}
+.border-right:nth-child(odd){border: none;}
+#parentHorizontalTab .resp-tab-content{padding: 40px}
+#parentHorizontalTab ul.resp-tabs-list{display: none;}
+}
+
+@media(max-width:640px){
+.flower-img {
+
+    width: 150px;
+
+}
+.slider-caption h1 {
+
+    font-size: 200%;}
+    .slider-caption p{font-size: 70%}
+    .slider-caption {
+
+    max-width: 200px;
+
+}
+.theam-btn {
+
+    padding: 1em 2em 1em 2em;
+
+}
+.front_slider .owl-dots{top: 30%}
+}
+
+@media(max-width:575px){
+.theam-btn{padding: 1em 2em 1em 2em}
+.vision-caption{padding: 30px 15px;} 
+.slider-caption h1 {
+
+    font-size: 170%;
+    margin-bottom: 5px;
+
+}
+.slider-caption p {
+
+    font-size: 60%;
+
+}
+.slider-caption {
+
+    max-width: 170px;
+
+}
+.slider-caption .theam-btn {
+
+    font-size: 60%;
+    padding: 10px 15px;
+
+}
+.front_slider.owl-carousel button.owl-dot{
+	background: #fff;
+
+height: 10px;
+
+width: 10px;
+
+margin: 0 0 10px 0;
+
+	}
+	.section-heading h2 {
+
+    font-size: 22px;}
+    .page-content p {
+
+    font-size: 14px;
+
+}
+p {
+
+    font-size: 14px;}
+    .industry-innerbox a{padding: 10px 15px}
+    .quotes-box{margin-bottom: 0;line-height: 1.5; font-size: 16px}
+   .contact-section {
+
+    margin-top: 20px;
+
+}
+.section-heading img {
+
+    margin-bottom: 10px;
+
+}
+.brand-name h3 {
+
+    font-size: 20px;}
+    .inner-banner{ padding-bottom:50px}
+					.inner-caption h1{font-size: 30px; margin-top: 30px}
+					.inner-caption p{font-size: 16px}
+					.box-content {
+    padding: 30px 30px;}
+    .supplement-box {
+    padding: 30px 0;
+}
+#parentHorizontalTab .resp-tab-content{padding: 30px}
+}
+
+
+@media(max-width:450px){
+.flower-img {
+
+    width: 100px;
+
+}
+.slider-caption h1 {
+
+    font-size: 150%;
+    margin-bottom: 4px;
+
+}
+.slider-caption {
+
+    max-width: 150px;
+
+}
+ .inner-banner{ padding-bottom:30px }
+					.inner-caption h1{font-size: 25px; margin-top: 30px}
+					.inner-caption p{font-size: 14px}
+					.box-content {
+    padding:20px;}
+    .supplement-box {
+    padding: 20px 0;
+}
+.form-box{padding: 15px 15px}
+#parentHorizontalTab .resp-tab-content{padding: 20px}
+}
+
+@media(max-width:380px){
+.slider-caption h1 {
+
+    font-size: 125%;}
+    .slider-caption {
+
+    max-width: 130px;
+
+}
+.flower-img {
+
+    width: 80px;
+
+}
+ .inner-banner{ padding-bottom:10px }
+ 	.inner-caption h1{font-size: 20px; margin-top: 10px}
+	}
