@@ -167,7 +167,7 @@ pointer-events: auto;
 		right:60px;
 	}
 
-	section{padding: 50px 0 0 0;}
+	section{padding: 30px 0 0 0;}
 
 	.section-heading {
 		text-align: center;
@@ -301,7 +301,7 @@ pointer-events: auto;
 			border-width: 1px 1px 1px 1px;
 			border-color: #FFFFFF;
 			transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-			padding: 45px 20px 40px 20px;
+			padding: 45px 20px 90px 20px;
 			text-align: center;
 		}
 
@@ -313,7 +313,7 @@ pointer-events: auto;
 				font-size: 14px;
 				font-weight: 300;
 				color:#fff;
-			    margin: 35px 0;
+				margin-bottom: 20px;
 			}
 
 
@@ -327,7 +327,7 @@ pointer-events: auto;
 				border-color: #FFFFFF;
 				border-radius: 0px 0px 0px 0px;
 				display: inline-block;
-				padding: 15px 30px 15px 30px !important;
+				padding: 15px 30px 15px 30px;
 				text-transform: uppercase;
 				margin-bottom: 30px
 			}
@@ -422,21 +422,7 @@ pointer-events: auto;
 
 			.industry-service p{margin-bottom: 0; width: 100%}
 
-			.brand-img{text-align: center;
-				position: relative;}
-				.text-brand-img {
-					position: absolute;
-					left: 0;
-					right: 0;
-					top: 50%;
-					margin-top: -47px;
-				}
-				.text-brand-img p {
-				    font-size: 30px;
-    max-width: 225px;
-    margin: 0 auto;
-    text-transform: uppercase;
-				}
+			.brand-img{text-align: center;}
 
 
 			.brand-name {
@@ -1024,7 +1010,7 @@ padding: 10px 15px !important; color: #666; font-weight: 300; font-size: 16px;}
 	background: #449314 !important;
 	color: #fff !important;
 }
-.resp-vtabs .resp-tabs-list li a:hover img{
+.resp-vtabs .resp-tabs-list li:hover img{
 	filter: invert(97%) sepia(1%) saturate(363%) hue-rotate(262deg) brightness(124%) contrast(100%);
 }
 #parentHorizontalTab ul.resp-tabs-list.hor_1 li:hover{
@@ -1038,9 +1024,7 @@ padding: 10px 15px !important; color: #666; font-weight: 300; font-size: 16px;}
 	background: #449314 !important;
 }
 
-.resp-vtabs .resp-tabs-list li a{
-	display: block;
-}
+
 /* Pawan style*/
 .sidebar-men li.list-group-item{
 padding: 10px 0px 10px 25px;
@@ -1051,3 +1035,13 @@ padding: 10px 0px 10px 25px;
 	text-decoration: none;
 	color: black;
 }
+.sidebar-men li.list-group-item a:hover{ 
+	text-decoration: none;
+	color: white;
+}
+
+.sidebar-men li.list-group-item:hover{ 
+	background-color: #276227;
+	color: white;
+}
+

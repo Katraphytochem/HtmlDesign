@@ -44,6 +44,20 @@
 	height: 500px;
 }
 
+#about-banner{
+	background: url("../images/about-us-banner.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+#nutra-banner{
+	background: url("../images/nutraceutical-banner-new.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
 
 .bg-tomatene{
 	background: url("../images/tomatene-2.jpg");
@@ -154,11 +168,24 @@ max-width: 500px;
 }
 
 
+.sub-green{
+	color: #53b85a;
+	font-weight:400;
+}
+
+
 .main-text{
 font-family: 'Montserrat', sans-serif;
 font-weight:300;
 color:#666666;
 font-size:15pt;
+}
+
+.about-text{
+font-family: 'Montserrat', sans-serif;
+font-weight:300;
+color:#666666;
+font-size:13pt;
 }
 
 
@@ -286,6 +313,236 @@ font-size:14pt;
 }
 
 
+#sub-menu-sidebar h3{
+color:#fff;
+text-align: center;
+padding:15px 30px;
+background-color: #449314;
+width:300px;
+font-family: 'Montserrat', sans-serif;
+font-weight:300;
+font-size: 18pt;
+}
+
+#sub-menu-sidebar p{
+color:#666666;
+text-align: center;
+padding:15px 30px;
+background-color: #F8F8F8;
+font-family: 'Montserrat', sans-serif;
+font-weight:300;
+font-size: 14pt;
+margin-bottom: 0px;
+border-bottom:1px solid #E2E2E2;
+}
+
+.live{
+	background-color:#276227 !important;
+	border-bottom:none;
+}
+
+.live a{
+	color:#fff !important;
+}
+
+
+#sub-menu-sidebar a:hover, #sub-menu-sidebar p:hover{
+	color:#fff;
+	background-color:#276227 !important; 
+}
+
+
+#sub-menu-sidebar a{
+	color:inherit;
+}
+
+
+
+#team1{
+	text-align: center;
+	background-color:#E6F3E9;
+	padding: 5px;
+}
+
+#team2{
+	text-align: center;
+	background-color:#F3F3E7;
+	padding: 5px;
+}
+
+#team3{
+	text-align: center;
+	background-color:#F3E9E7;
+	padding: 5px;
+}
+
+
+#team1,#team2, #team3{
+	max-width: 386px !important;
+    margin-bottom: 40px;
+}
+
+#ab-back{
+	background-image: url("../images/about-us-back.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+.btn-k{
+	color:#449314 !important;
+	border:1px solid #449314;
+	padding:15px 50px;
+	font-size: 11pt;
+}
+
+.btn-k:hover{
+	background-color: #449314 !important;
+	color:#fff !important;
+}
+
+
+
+
+.timeline {
+  list-style: none;
+  position: relative;
+}
+
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 1px;
+  background-color: #539905;
+  left: 50%;
+}
+
+.timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+
+.timeline > li:after {
+  clear: both;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+
+.timeline > li:after {
+  clear: both;
+}
+
+.timeline > li > .timeline-panel {
+  width: 46%;
+  float: left;
+ 
+  padding: 20px;
+ padding-top:0px;
+  position: relative;
+}
+
+
+
+.timeline > li > .timeline-panel:after {
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+
+.timeline > li > .timeline-badge {
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-left: -8px;
+  background-color: #539905;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+
+.timeline-badge.primary {
+  background-color: #9ACB34 !important;
+}
+
+
+
+.timeline-title {
+  margin-top: 0;
+  color: inherit;
+}
+
+.timeline-body > p,
+.timeline-body > ul {
+  margin-bottom: 0;
+}
+
+.timeline-body > p + p {
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 320px){
 	.fnb-container img{
 	max-width:250px;
@@ -327,6 +584,16 @@ height: 200px;
 }
 
 #lutest-banner{
+background-size: 100%;
+height: 200px;
+}
+
+#about-banner{
+background-size: 100%;
+height: 200px;
+}
+
+#nutra-banner{
 background-size: 100%;
 height: 200px;
 }
@@ -377,6 +644,18 @@ height: 250px;
 background-size: 100%;
 height: 250px;
 }
+
+	#about-banner{
+background-size: 100%;
+height: 250px;
+}
+
+	#nutra-banner{
+background-size: 100%;
+height: 250px;
+}
+
+
 }
 
 
@@ -406,6 +685,16 @@ height: 250px;
 }
 
 #lutest-banner{
+background-size: 100%;
+height: 250px;
+}
+
+#about-banner{
+background-size: 100%;
+height: 250px;
+}
+
+#nutra-banner{
 background-size: 100%;
 height: 250px;
 }
@@ -467,6 +756,16 @@ height:300px;
 }
 
 #lutest-banner{
+background-size: 100%;
+height:300px;
+}
+
+#about-banner{
+background-size: 100%;
+height:300px;
+}
+
+#nutra-banner{
 background-size: 100%;
 height:300px;
 }
@@ -539,6 +838,16 @@ background-size: 100%;
 height:350px;
 }
 
+#about-banner{
+background-size: 100%;
+height:350px;
+}
+
+#nutra-banner{
+background-size: 100%;
+height:350px;
+}
+
 .fnb-container img{
 	max-width:280px;
 }
@@ -586,6 +895,16 @@ background-position: center;
 }
 
 #lutest-banner{
+background-size: contain;
+background-position: center;
+}
+
+#about-banner{
+background-size: contain;
+background-position: center;
+}
+
+#nutra-banner{
 background-size: contain;
 background-position: center;
 }
